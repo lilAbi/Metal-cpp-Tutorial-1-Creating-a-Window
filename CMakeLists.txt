@@ -6,6 +6,7 @@ add_subdirectory(include/metal-cmake)
 
 include_directories("src")
 
+#you can remove this files if you dont have lllvm installed via homebrew
 include_directories("/usr/local/Cellar/llvm/15.0.0/include/c++/v1")
 link_directories("/usr/local/Cellar/llvm/15.0.0/lib/c++")
 
